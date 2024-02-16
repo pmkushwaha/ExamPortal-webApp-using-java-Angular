@@ -1,7 +1,11 @@
  
 # ExamPortal :atom:
 
-**ExamPortal** is a web application designed for conducting exams online. It allows users to perform CRUD (Create, Read, Update, Delete) operations related to exams. The system features both normal user and admin logins, enabling users to take exams and administrators to manage all aspects of the examination process.
+**ExamPortal** is a web application designed for conducting exams online. It allows users to perform CRUD (Create, Read, Update, Delete) operations related to exams. The system features both normal user and admin logins, enabling users to take exams and administrators to manage all aspects of the examination process. 
+<br>
+<br>
+## Landing page
+![Alt Text](ExamPortalFrontEnd/src/assets/images/Screenshot.png)
 
  
 
