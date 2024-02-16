@@ -117,6 +117,20 @@ public class User implements UserDetails{
 	}
 
 
+	/**
+	 * @return the profile
+	 */
+	public String getProfile() {
+		return profile;
+	}
+
+	/**
+	 * @param profile the profile to set
+	 */
+	public void setProfile(String profile) {
+		this.profile = profile;
+	}
+
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
 	}
@@ -158,7 +172,7 @@ public class User implements UserDetails{
 		this.userRoles.forEach(userRole->{
 			set.add(new Authority(userRole.getRole().getRolename()));
 		});
-		return null;
+		return set;
 	}
 
 	@Override

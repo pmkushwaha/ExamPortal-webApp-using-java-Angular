@@ -24,11 +24,11 @@ import com.examportal.services.UserService;
 @CrossOrigin("*")
 public class UserController {
 
-//	Create user 
-	
-	
+ 
 	@Autowired
 	private UserService userService;
+	
+//	Create user 
 	
 	@PostMapping("/")
 	public User createUser(@RequestBody User user) throws Exception {
