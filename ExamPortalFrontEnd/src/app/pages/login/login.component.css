@@ -1,0 +1,13 @@
+
+.navbar-brand {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .full-width{
+    width: 100%;
+  }
+  mat-card {
+    padding:2%;
+     
+  }

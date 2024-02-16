@@ -1,0 +1,43 @@
+ 
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 mt-5">
+                <mat-card>
+                    <div class="container text-center mt-5 mb-3">
+                        <img class="navbar-brand " src="assets/images/ramji.jpg" alt="">
+                    </div>
+
+                   
+                    <h1 class="text-center">Login Here</h1>
+                    
+                    {{loginData|json}}
+                    <form  (ngSubmit)="formSubmit()" >
+
+                        <!-- for username -->
+   
+                    <mat-form-field appearance="outline" class="full-width">
+                        <mat-label> UserName</mat-label>
+                        <input required [(ngModel)]="loginData.username" name="username" matInput
+                           type="name" placeholder="enter your UserName">
+                    </mat-form-field>
+                        <!-- for password -->
+                        <mat-form-field appearance="outline" class="full-width">
+                            <mat-label> user Password</mat-label>
+                            <input required  [(ngModel)]="loginData.password" name="password" matInput  type="password" placeholder="enter your password" >
+                        </mat-form-field>
+                        <div class="container text-center">
+                            <button type="submit" mat-raised-button color="primary" class="me-4">Login <mat-icon>login</mat-icon></button>
+                            <button type="reset" mat-raised-button color="warn" class="mb">Reset <mat-icon>reset</mat-icon></button>
+
+                        </div>
+                        <div class="container text-center mt-4">
+                            <p>Have not an account <span style="color: blue;"><a href="signup">Register</a></span></p>
+                        </div>
+                    </form>
+                </mat-card>
+            </div>
+
+        </div>
+    </div>
+</div>

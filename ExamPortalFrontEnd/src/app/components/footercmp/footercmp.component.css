@@ -1,0 +1,91 @@
+.footer {
+    background-color: #3489ed;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer a {
+    color: #90bde7;
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    .footer {
+      font-size: 14px;
+    }
+  } 
+
+
+
+  /* feedback */
+  .feedback{
+    background-color: rgb(187, 119, 17);
+  }
+  .feedback-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .feedback-form input[type="text"],
+  .feedback-form textarea {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .feedback-form input[type="submit"] {
+    background-color: #eef4ed;
+    color: #3489ed;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+/*   
+  .footer {
+    background-color: #3489ed;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    color: #90bde7;
+    font-size: 24px;
+  }
+
+  .feedback-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .feedback-form input[type="text"],
+  .feedback-form textarea {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .feedback-form input[type="submit"] {
+    background-color: #eef4ed;
+    color: #3489ed;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  } */

@@ -1,0 +1,22 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+   
+.logo{
+   
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size:35px;
+}
+
+#p{
+   
+  color: #3489eb;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+.nav:hover{
+background-color: #3489eb;
+}
