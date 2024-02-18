@@ -1,48 +1,47 @@
  
-# ExamPortal :atom:
+# ExamPortal 🖥️
 
 **ExamPortal** is a web application designed for conducting exams online. It allows users to perform CRUD (Create, Read, Update, Delete) operations related to exams. The system features both normal user and admin logins, enabling users to take exams and administrators to manage all aspects of the examination process. 
 <br>
 <br>
-## Landing page
+## Home page Screenshot 📸
 ![Alt Text](ExamPortalFrontEnd/src/assets/images/Screenshot.png)
 
  
 
-## Features
-### User Authentication:
+## Features🌟
+### User Authentication🔐
 
 - Normal users can log in to the system with their credentials.
 - Admin users have a separate login to access administrative functionalities.
-### CRUD Operations:
+### CRUD Operations⚙️
 
 - Create, Read, Update, and Delete operations are available for managing exams.
-### Exam Taking:
-
+### Exam Taking🎓
 - Normal users can take exams through the portal.
 - The system supports various types of questions (e.g., multiple choice, true/false).
-### Admin Dashboard:
+### Admin Dashboard🖥️
 
 - Admin users have access to a dashboard for managing exams and user data.
 
 
-## Usage
-### User Login:
+## Usage📑
+### User Login🌐
 
 - Access the application as a normal user using the provided login credentials.
-### Admin Login:
+### Admin Login🌐
 
 - Log in as an admin to access the admin dashboard.
 Exam Management:
 
 - Create, update, and delete exams through the admin dashboard.
-### User Exam:
+### User Exam📋
 
 - Normal users can take exams through the user portal.
 
 
 
-## Technologies Used
+## Technologies Used👨‍💻
 **Angular,BootStrap:** Front-end framework for building the user interface.
 
 **Java:** Back-end technologies for handling server-side operations.
@@ -52,7 +51,7 @@ Exam Management:
 **Spring security:** Implemented for user  authentication for secure access.
 
 
-## Contributing
+## Contributing🥇
 
 Contributions are always welcome!
 
@@ -61,7 +60,7 @@ If you want to contribute to the development of the ExamPortal project, follow t
 
 See [contributing.md](https://contributing.md/) for ways to get started.
 
- ## or can start like..
+ ## or can start like...🛩️
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature/new-feature).
 3. Commit your changes (git commit -m 'Add new feature').
@@ -69,7 +68,7 @@ See [contributing.md](https://contributing.md/) for ways to get started.
 5. Open a pull request.
 
 
-## 🔗 Contact Me 
+## 🔗 Contact Me 📱
 
 
  
@@ -80,3 +79,5 @@ See [contributing.md](https://contributing.md/) for ways to get started.
  [![gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](pmkushwaha02@gmail.com)
  
 [![Instagram](https://img.shields.io/badge/instagram-red?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/4mb_vita/)
+
+# Thank You!💟 
