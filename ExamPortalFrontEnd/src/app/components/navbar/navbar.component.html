@@ -1,42 +1,45 @@
-<mat-toolbar color="EEF4ED">
-  <a routerLink="/" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-    <mat-icon>menu_book</mat-icon>
-  </a>
-  <span class="logo">Exam<span id="p">Portal</span></span>
-  <span class="example-spacer"></span>
-  <a *ngIf="!login.isLoggedIn()" [routerLink]="'/login'" mat-button class=" nav me-5">
-    Login
-  </a>
-  <a *ngIf="!login.isLoggedIn()" [routerLink]="'/signup'" mat-button class="nav me-5">
-    Register
-  </a>
-
-  <a [routerLink]="'/'" mat-button class="nav me-5">
-    Home
-  </a>
-
-  <!-- for normal user dashboard -->
-  <a *ngIf="login.isLoggedIn()&& login.getUserRole()=='NORMAL'" [routerLink]="'/user-dashboard'" mat-button
-    class="nav me-5">
-    Dashboard
-  </a>
-
-  <!-- for ADMIN dashboard -->
-  <a *ngIf="login.isLoggedIn()&& login.getUserRole()=='ADMIN'" [routerLink]="'/dashboard'" mat-button class="nav me-5">
-    Dashboard
-  </a>
-
-  <a *ngIf="login.isLoggedIn()" mat-button class="nav me-5">
-    {{login.getUser().username}}
-  </a>
-
-  <a (click)="logout()" *ngIf="login.isLoggedIn()" [routerLink]="'/signup'" mat-button class="nav me-5">
-    Logout
-  </a>
-
+ 
+  <mat-toolbar color="EEF4ED">
+    <a [routerLink]="'/'"   >
+      <img id="logo" src="assets/images/logo.png" alt="">
+       
+    </a>
+    <span class="logo">Exam<span id="p">Portal</span></span>
+    <span class="example-spacer"></span>
+    <a *ngIf="!login.isLoggedIn()" [routerLink]="'/login'" mat-button class=" nav me-5">
+      Login
+    </a>
+    <a *ngIf="!login.isLoggedIn()" [routerLink]="'/signup'" mat-button class="nav me-5">
+      Register
+    </a>
   
-  <a *ngIf="!login.isLoggedIn()" href="#about" mat-button class="nav me-5">
-    About
-  </a>
-
-</mat-toolbar>
+    <a [routerLink]="'/'" mat-button class="nav me-5">
+      Home
+    </a>
+  
+    <!-- for normal user dashboard -->
+    <a *ngIf="login.isLoggedIn()&& login.getUserRole()=='NORMAL'" [routerLink]="'/user-dashboard'" mat-button
+      class="nav me-5">
+      Dashboard
+    </a>
+  
+    <!-- for ADMIN dashboard -->
+    <a *ngIf="login.isLoggedIn()&& login.getUserRole()=='ADMIN'" [routerLink]="'/dashboard'" mat-button class="nav me-5">
+      Dashboard
+    </a>
+  
+    <a *ngIf="login.isLoggedIn()" mat-button class="nav me-5">
+      {{login.getUser().username}}
+    </a>
+  
+    <a (click)="logout()" *ngIf="login.isLoggedIn()" [routerLink]="'/signup'" mat-button class="nav me-5">
+      Logout
+    </a>
+  
+    
+    <a *ngIf="!login.isLoggedIn()" href="#about" mat-button class="nav me-5">
+      About
+    </a>
+  
+  </mat-toolbar>
+ 

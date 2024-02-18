@@ -1,22 +1,50 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-   
+  img{
+    width: 40px;
+    height: 40px;
+    border-radius:10%;
+    padding:2px;
+    margin:8px;
+    background-color: black;
+  }
+  img:hover{
+    
+  /* transform: matrix(1, 0, 0, 1, 50, 20); */
+  
+  transform:scale(1.1);
+    background-color: #3489eb;
+  }
+  
 .logo{
    
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size:35px;
 }
+/* Media query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none; /* Hide nav links for smaller screens */
+  }
+  .example-spacer {
+    flex: 1 auto;
+  }
+ 
+}
+
 
 #p{
    
   color: #3489eb;
 }
 .example-spacer {
-    flex: 1 1 auto;
+    flex: 1 auto;
   }
   
 .nav:hover{
 background-color: #3489eb;
 }
+
+ 
